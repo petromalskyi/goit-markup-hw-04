@@ -41,12 +41,21 @@
 
         <ul class="contact-nav list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
+            <a class="envelope link" href="mailto:info@devstudio.com">
+              <svg class="icon" width="16" height="12">
+                <use href="./images/icon.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
+
           <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a class="smartphone link" href="tel:+380961111111">
+              <svg class="icon" width="10" height="16">
+                <use href="./images/icon.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -77,7 +86,7 @@
           <ul class="list-image list">
             <li class="item">
               <img
-                src="./image/img5.jpg"
+                src="./images/img5.jpg"
                 class="img"
                 alt="фото трьох людей"
                 width="370"
@@ -89,7 +98,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img6.jpg"
+                src="./images/img6.jpg"
                 class="img"
                 alt="баскетбол"
                 width="370"
@@ -104,7 +113,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img7.jpg"
+                src="./images/img7.jpg"
                 class="img"
                 alt="реклама ресторану"
                 width="370"
@@ -118,7 +127,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img8.jpg"
+                src="./images/img8.jpg"
                 class="img"
                 alt="навушники"
                 width="370"
@@ -132,7 +141,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img9.jpg"
+                src="./images/img9.jpg"
                 class="img"
                 alt="дві коробки"
                 width="370"
@@ -146,7 +155,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img10.jpg"
+                src="./images/img10.jpg"
                 class="img"
                 alt="монітор"
                 width="370"
@@ -160,7 +169,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img11.jpg"
+                src="./images/img11.jpg"
                 class="img"
                 alt="відкрита книга"
                 width="370"
@@ -174,7 +183,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img12.jpg"
+                src="./images/img12.jpg"
                 class="img"
                 alt="етикетка"
                 width="370"
@@ -188,7 +197,7 @@
             </li>
             <li class="item">
               <img
-                src="./image/img13.jpg"
+                src="./images/img13.jpg"
                 class="img"
                 alt="ноутбук"
                 width="370"
@@ -207,34 +216,88 @@
 
     <!--             FOOTER          -->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo-footer link" lang="en">
-          <span class="logo-color">Web</span>Studio
-        </a>
-        <address class="address-footer">
-          <ul class="list">
-            <li class="footer-item">
+      <div class="container footer-contaner">
+        <div>
+          <a href="./index.html" class="logo-footer link" lang="en">
+            <span class="logo-color">Web</span>Studio
+          </a>
+
+          <address class="address-footer">
+            <ul class="list">
+              <li class="footer-item">
+                <a
+                  class="footer-address link"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  м. Київ, пр-т Лесі Украінки, 26
+                </a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-link link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-icon">
+          <h3 class="footer-title">приєднуйтесь</h3>
+
+          <ul class="icon-list list">
+            <li class="list-icon">
               <a
-                class="footer-address link"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
+                href="https://www.instagram.com"
+                class="icon-link"
+                aria-label="інстаграм"
               >
-                м. Київ, пр-т Лесі Украінки, 26
+                <svg class="icon-svg" width="20" height="20">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+            <li class="list-icon">
+              <a
+                href="https://twitter.com"
+                class="icon-link"
+                aria-label="твітер"
               >
+                <svg class="icon-svg" width="20" height="20">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-link link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
+            <li class="list-icon">
+              <a
+                href="https://www.facebook.com"
+                class="icon-link"
+                aria-label="фейсбук"
               >
+                <svg class="icon-svg" width="20" height="20">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-icon">
+              <a
+                href="https://ua.linkedin.com"
+                class="icon-link"
+                aria-label="лінкедін"
+              >
+                <svg class="icon-svg" width="20" height="20">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
